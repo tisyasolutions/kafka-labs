@@ -111,7 +111,6 @@ services:
       CONNECT_REST_PORT: 8083
       KAFKA_DEBUG: "true"
       JAVA_DEBUG_PORT: "*:8888"
-      CONNECT_REST_ADVERTISED_HOST_NAME: "connect"
       CONNECT_GROUP_ID: connect-group
       CONNECT_CONFIG_STORAGE_TOPIC: connect-avro-configs
       CONNECT_OFFSET_STORAGE_TOPIC: connect-avro-offsets
